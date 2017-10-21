@@ -1,0 +1,7 @@
+I managed to send data from the VM to the arduino to the Inforce, but not in a way where it gets interpreted on the other end correctly
+I have no idea why this is the case, and I am tired"
+
+I think that our problem has something to do with the stty setting of /dev/ttyHSL0
+
+Another note, the data that is recieved is much less than what is sent, which makes me think that
+this is a case of the baud rate on the Inforce not actually changing, but I should ask someone who knows something about this.
